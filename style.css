@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 2rem;
+  background-image: url("img/enchanted-forest-pathway.jpg");
+  background-size: cover;
+}
+
+p {
+  font-size: 32px;
+  color: white;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
+
+.btn {
+	background-color: black;
+	padding: 1rem 3rem;
+	margin-right: 20px;
+	border-radius: 15px;
+	border: none;
+	font-size: 24px;
+	color: white;
+	border: 5px solid black;
+}
+
+.btn-restart {
+	background-color: orange;
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+}
+
+.btn-yes {
+
+	background-color: #27ae60;
+}
+
+.btn-no {
+	background-color: #e74c3c;
+}
