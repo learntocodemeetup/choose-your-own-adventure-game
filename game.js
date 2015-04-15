@@ -19,11 +19,11 @@
           "An enigmatic wizard has appeared in front of you, shall you talk to him or run?"
         );
 
-        if (shallIRunOrTalk == "run"){
+        if (shallIRunOrTalk.toLowerCase() == "run"){
           $("#game-display").append(
             "<p>You try to run, but the wizard casts a spell and blocks your exit. You spend the rest of your days carrying buckets of water for him. The End.</p>"
           );
-        } else if (shallIRunOrTalk == "talk") {
+        } else if (shallIRunOrTalk.toLowerCase() == "talk") {
           
           var randomNumberFunction = function() {
             return Math.floor(Math.random() * 6 + 1); // returns either 1 or 2
