@@ -107,7 +107,7 @@
 
   setTimeout(function() {
     chooseYourOwnAdventureGame(); 
-  }, 500);
+  }, 1000);
 
 
 
